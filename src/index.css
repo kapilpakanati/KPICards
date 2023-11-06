@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-card-head {
+  border:none !important;
+}
+
+
+.ant-progress-bg {
+  height: 12px !important;
+}
+.ant-divider-horizontal
+{
+  margin: 5px 0 !important;
+}
+
+
+ /* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(150, 149, 149, 0.467); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  rgba(150, 149, 149, 0.467); 
+  border-radius: 10px;
+}
+
+:where(.css-18iikkb).ant-col-12 {
+  --ant-display: block;
+  display: block;
+  display: var(--ant-display);
+  flex: 0 0 50%;
+  max-width: 48%;
+}
+
+
+.ant-card .ant-card-bordered  .ant-card .ant-card-bordered .css-18iikkb {width: 93%;margin-left: 5%;border-color: rgb(216, 220, 229);border-radius: 8px}
+
+.ant-card .ant-card-body {
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+}
+
+.ant-card  {
+  margin-bottom: 2%;
+}
+
+.ant-progress.ant-progress-status-success .ant-progress-bg {
+  background-color: #4AA147;
+}
+
+.ant-space-gap-row-small {
+  row-gap: 8px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+
+.ant-tabs-nav::before {
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid  #D8DCE5;
+    content: '';
+}
+
+:where(.css-18iikkb).ant-btn >span {
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* :where(.css-18iikkb).ant-row {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 0;
+  margin-top: 7%;
+} */
